@@ -1,0 +1,21 @@
+package:
+  name: numpy
+  version: 1.22.3
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python >=3
+  run:
+    - python
+
+test:
+  commands:
+    - python -c "import numpy"
+
+about:
+  home: numpy
+  license: BSD
+  summary: building numpy from pypi
