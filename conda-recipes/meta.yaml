@@ -3,7 +3,7 @@ package:
   version: 1.22.3
 
 build:
-  string: pypi_repack
+  string: py{{ PY_VER }}h{{ PKG_HASH }}_pypi_repack
 
 requirements:
   build:
